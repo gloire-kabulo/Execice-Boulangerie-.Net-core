@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\L3 MSI 2019-2020\\PROJET DOTNET\\Boulangerie\\Boulangerie.csproj": {}
+    "e:\\L3 MSI 2019-2020\\PROJET DOTNET\\Boulangerie\\Boulangerie.csproj": {}
   },
   "projects": {
-    "E:\\L3 MSI 2019-2020\\PROJET DOTNET\\Boulangerie\\Boulangerie.csproj": {
+    "e:\\L3 MSI 2019-2020\\PROJET DOTNET\\Boulangerie\\Boulangerie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\L3 MSI 2019-2020\\PROJET DOTNET\\Boulangerie\\Boulangerie.csproj",
+        "projectUniqueName": "e:\\L3 MSI 2019-2020\\PROJET DOTNET\\Boulangerie\\Boulangerie.csproj",
         "projectName": "Boulangerie",
-        "projectPath": "E:\\L3 MSI 2019-2020\\PROJET DOTNET\\Boulangerie\\Boulangerie.csproj",
+        "projectPath": "e:\\L3 MSI 2019-2020\\PROJET DOTNET\\Boulangerie\\Boulangerie.csproj",
         "packagesPath": "C:\\Users\\Gloire Kabulo\\.nuget\\packages\\",
-        "outputPath": "E:\\L3 MSI 2019-2020\\PROJET DOTNET\\Boulangerie\\obj\\",
+        "outputPath": "e:\\L3 MSI 2019-2020\\PROJET DOTNET\\Boulangerie\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -45,7 +45,7 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "(, )"
+              "version": "[3.1.1, )"
             }
           },
           "imports": [

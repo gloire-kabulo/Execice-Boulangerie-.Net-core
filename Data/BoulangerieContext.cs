@@ -11,7 +11,13 @@ namespace Boulangerie.Data
             optionsBuilder.UseSqlite(@"Data source = Boulangerie.db");
         }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder){
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            if (modelBuilder is null)
+            {
+                throw new System.ArgumentNullException(nameof(modelBuilder));
+            }
+
             modelBuilder.ApplyConfiguration(new ProduitConfiguration()).Seed();
         }
     }
